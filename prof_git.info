@@ -1,0 +1,192 @@
+This is prof_git.info, produced by makeinfo version 6.5 from
+prof_git.texi.
+
+Outline of _Professional Git_ © 2017 by John Riley & Sons, Inc
+
+   Written by Brent Laster
+
+   Outlined by WLHarvey4
+INFO-DIR-SECTION Version Control
+START-INFO-DIR-ENTRY
+* Professional Git.     More advanced Git.
+END-INFO-DIR-ENTRY
+
+
+File: prof_git.info,  Node: Top,  Next: Introduction,  Up: (dir)
+
+Outline of _Professional Git_
+*****************************
+
+Outline of _Professional Git_ © 2017 by John Riley & Sons, Inc
+
+   Written by Brent Laster
+
+   Outlined by WLHarvey4
+
+* Menu:
+
+* Introduction::
+* What Is Git::
+* Key Concepts::
+* The Git Promotion Model::
+* Configuration and Setup::
+* Getting Productive::
+* Tracking Changes::
+* Working With Changes Over Time and Using Tags::
+* Working With Local Branches::
+* Merging Content::
+* Supporting Files in Git::
+* Doing More With Git::
+* Understanding Remotes---Branches andc Operations::
+* Understanding Remotes---Workflows for Changes::
+* Working With Trees and Modules in Git::
+* Extending Git Functionality With Git Hooks::
+* Index::
+
+
+File: prof_git.info,  Node: Introduction,  Next: What Is Git,  Prev: Top,  Up: Top
+
+Introduction
+************
+
+_Professional Git_ is intended to help you understand and use Git to get
+your job done.  In the process, it will also make Git part of your
+professional comfort zone.
+
+   This section will explain how this book is unique from other books
+about Git, the intended audience, the book’s overall structure and
+content, and some of the value it offers you.
+
+
+File: prof_git.info,  Node: What Is Git,  Next: Key Concepts,  Prev: Introduction,  Up: Top
+
+1 What Is Git
+*************
+
+Chapter Goals
+=============
+
+   • A brief introduction to Git and its history
+   • The different ways to find and access Git
+   • Types of applications that incorporate Git
+   • The advantages of using Git
+   • The challenges of using Git
+
+
+File: prof_git.info,  Node: Key Concepts,  Next: The Git Promotion Model,  Prev: What Is Git,  Up: Top
+
+2 Key Concepts
+**************
+
+
+File: prof_git.info,  Node: The Git Promotion Model,  Next: Configuration and Setup,  Prev: Key Concepts,  Up: Top
+
+3 The Git Promotion Model
+*************************
+
+
+File: prof_git.info,  Node: Configuration and Setup,  Next: Getting Productive,  Prev: The Git Promotion Model,  Up: Top
+
+4 Configuration and Setup
+*************************
+
+
+File: prof_git.info,  Node: Getting Productive,  Next: Tracking Changes,  Prev: Configuration and Setup,  Up: Top
+
+5 Getting Productive
+********************
+
+
+File: prof_git.info,  Node: Tracking Changes,  Next: Working With Changes Over Time and Using Tags,  Prev: Getting Productive,  Up: Top
+
+6 Tracking Changes
+******************
+
+
+File: prof_git.info,  Node: Working With Changes Over Time and Using Tags,  Next: Working With Local Branches,  Prev: Tracking Changes,  Up: Top
+
+7 Working With Changes Over Time and Using Tags
+***********************************************
+
+
+File: prof_git.info,  Node: Working With Local Branches,  Next: Merging Content,  Prev: Working With Changes Over Time and Using Tags,  Up: Top
+
+8 Working With Local Branches
+*****************************
+
+
+File: prof_git.info,  Node: Merging Content,  Next: Supporting Files in Git,  Prev: Working With Local Branches,  Up: Top
+
+9 Merging Content
+*****************
+
+
+File: prof_git.info,  Node: Supporting Files in Git,  Next: Doing More With Git,  Prev: Merging Content,  Up: Top
+
+10 Supporting Files in Git
+**************************
+
+
+File: prof_git.info,  Node: Doing More With Git,  Next: Understanding Remotes---Branches andc Operations,  Prev: Supporting Files in Git,  Up: Top
+
+11 Doing More With Git
+**********************
+
+
+File: prof_git.info,  Node: Understanding Remotes---Branches andc Operations,  Next: Understanding Remotes---Workflows for Changes,  Prev: Doing More With Git,  Up: Top
+
+12 Understanding Remotes—Branches andc Operations
+*************************************************
+
+
+File: prof_git.info,  Node: Understanding Remotes---Workflows for Changes,  Next: Working With Trees and Modules in Git,  Prev: Understanding Remotes---Branches andc Operations,  Up: Top
+
+13 Understanding Remotes—Workflows for Changes
+**********************************************
+
+
+File: prof_git.info,  Node: Working With Trees and Modules in Git,  Next: Extending Git Functionality With Git Hooks,  Prev: Understanding Remotes---Workflows for Changes,  Up: Top
+
+14 Working With Trees and Modules in Git
+****************************************
+
+
+File: prof_git.info,  Node: Extending Git Functionality With Git Hooks,  Next: Index,  Prev: Working With Trees and Modules in Git,  Up: Top
+
+15 Extending Git Functionality With Git Hooks
+*********************************************
+
+
+File: prof_git.info,  Node: Index,  Prev: Extending Git Functionality With Git Hooks,  Up: Top
+
+Index
+*****
+
+
+
+Tag Table:
+Node: Top312
+Node: Introduction1076
+Node: What Is Git1543
+Node: Key Concepts1917
+Node: The Git Promotion Model2054
+Node: Configuration and Setup2225
+Node: Getting Productive2402
+Node: Tracking Changes2562
+Node: Working With Changes Over Time and Using Tags2740
+Node: Working With Local Branches2985
+Node: Merging Content3193
+Node: Supporting Files in Git3355
+Node: Doing More With Git3527
+Node: Understanding Remotes---Branches andc Operations3724
+Node: Understanding Remotes---Workflows for Changes3999
+Node: Working With Trees and Modules in Git4286
+Node: Extending Git Functionality With Git Hooks4553
+Node: Index4790
+
+End Tag Table
+
+
+Local Variables:
+coding: utf-8
+End:

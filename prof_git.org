@@ -1,0 +1,69 @@
+# -*- mode: org; fill-column: 79; -*-
+
+#+TITLE: Outline of /Professional Git/
+#+AUTHOR: Brent Laster
+#+DATE: <2019-01-08 Tue 13:14>
+
+#+TEXINFO: @insertcopying
+
+* Introduction
+  :PROPERTIES:
+  :unnumbered: t
+  :END:
+  /Professional Git/ is intended to help you understand and use Git to get your
+  job done.  In the process, it will also make Git part of your professional
+  comfort zone.
+
+  This section will explain how this book is unique from other books about Git,
+  the intended audience, the book's overall structure and content, and some of
+  the value it offers you.
+#+TEXINFO: @part UNDERSTANDING GIT CONCEPTS
+* What Is Git
+  {{{heading(Chapter Goals)}}}
+   - A brief introduction to Git and its history
+   - The different ways to find and access Git
+   - Types of applications that incorporate Git
+   - The advantages of using Git
+   - The challenges of using Git
+* Key Concepts
+* The Git Promotion Model
+#+TEXINFO: @part USING GIT
+* Configuration and Setup
+* Getting Productive
+* Tracking Changes
+* Working With Changes Over Time and Using Tags
+* Working With Local Branches
+* Merging Content
+* Supporting Files in Git
+* Doing More With Git
+* Understanding Remotes---Branches andc Operations
+* Understanding Remotes---Workflows for Changes
+* Working With Trees and Modules in Git
+* Extending Git Functionality With Git Hooks
+* Index
+  :PROPERTIES:
+  :index:    cp
+  :END:
+* Copying
+  :PROPERTIES:
+  :copying:  t
+  :END:
+  {{{title}}} \copy 2017 by John Riley & Sons, Inc
+
+  Written by {{{author}}}
+
+  Outlined by WLHarvey4
+* EXPORT SETUP                                                     :noexport:
+
+#+TEXINFO_CLASS: info
+#+TEXINFO_HEADER:
+#+TEXINFO_POST_HEADER:
+#+TEXINFO_DIR_CATEGORY: Version Control
+#+TEXINFO_DIR_TITLE:Professional Git
+#+TEXINFO_DIR_DESC:More advanced Git
+
+#+OPTIONS: H:4 date:t
+
+* MACROS                                                           :noexport:
+
+#+MACRO: heading @@texinfo:@heading @@$1
