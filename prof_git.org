@@ -2,7 +2,7 @@
 
 #+TITLE: Outline of /Professional Git/
 #+AUTHOR: Brent Laster
-#+DATE: <2019-01-10 Thu 19:45>
+#+DATE: <2019-01-10 Thu 23:48>
 
 #+TEXINFO: @insertcopying
 
@@ -19,12 +19,14 @@
   the value it offers you.
 
 ** How This Book is Unique
+   #+cindex: git concepts
    {{{heading(Git in terms of Known Concepts)}}}
    Most books are aimed at providing the technical usage as their major and
    singular goal.  This book provides that, but it will aso provide you with an
    understanding of Git in terms of /concepts/ that you probably already know.
 
    {{{heading(Connected Labs for Actual Examples)}}}
+   #+cindex: Connected Labs feature
    Most books do not provide practical ways to integrate the concepts they
    describe.  Learning is most effective when you have /actual examples/ to
    work through so you can internalize the concepts and gain proficiency.  This
@@ -38,6 +40,8 @@
    standard Git features to gain extra valua.
 
    {{{heading(Git Model and Workflow)}}}
+   #+cindex: git model
+   #+cindex: git workflow
    To be most effective, you need to comprehend the Git /model/ and /workflow/.
    You should also know what to watch out for as you make the transition and
    why it's important to consider not only the commands and workflow, but also
@@ -59,11 +63,13 @@
    powerful tool---that's what this book is about.
 
 ** Structure and Content
+   #+cindex: organization
    This book is organized as a series of chapters that present Git from the
    ground up, teaching what is needed to know and build on to become proficient
    before adding new concepts.
 
    {{{heading(Part One: Foundational Git)}}}
+   #+cindex: git foundations
    The first three chapters cover the foundational concepts of Git: how it is
    different from other systems, the ecosystem that's been built around it, its
    advantages and challenges, and the model that allows you to understand its
@@ -72,6 +78,8 @@
    of Git.
 
    {{{heading(Part Two: Usage and Features of Git)}}}
+   #+cindex: git usage
+   #+cindex: git features
    The remaining chapters of the book cover the usage and features of Git, from
    performing basic operations to create repositories and commit changes into
    them, to creating branches, doing merges, and working with content in public
@@ -84,6 +92,7 @@
      productive with Git;
    - ways to relate concepts to what you already know and understand;
    - many illustrations to help you understand concepts visually;
+     #+cindex: Connected Labs
    - a feature that allows you to get hands-on experience with Git, via
      *Connected Labs*, insterspersed throught the chapters.  These labs are
      designed to reinforce the concepts presented in the text of the prceding
@@ -93,6 +102,9 @@
    To get the most out of the book, you should take the time to complete each
    lab.  As well, talk a look at the Advanced Topics sections.
 
+   #+cindex: Git repositories
+   #+cindex: book repositories
+   #+cindex: hooks, code
    For the later labs, custom Git repositories with example content are
    provided for the user at [[http://hithub.com/professional-git]].  In addition,
    downlable copies of the code for the hooks from the last chapter are
@@ -106,11 +118,15 @@
    - The advantages of using Git
    - The challenges of using Git
 
+#+cindex: git introduction
+#+cindex: introduction to git
+#+cindex: git, what it is
 Here you will be introduced to Git and will learn about it from a product
 perspective---what it is, why it's used, the different kinds of interfaces you
 can use with it, and the good parts and challenging parts of working with it.
 
 {{{heading(One Paragraph Summary)}}}
+#+cindex: git in one paragraph
 #+begin_quote
 Git is a popular and widely used source management system that greatly
 simplifies the development cycle.  It enables uers to create, use, and switch
@@ -125,6 +141,11 @@ detail.
 #+end_quote
 
 ** History of Git
+   #+cindex: git history
+   #+cindex: history of git
+   #+cindex: Linux and git
+   #+cindex: Linux kernel
+   #+cindex: Torvalds, Linus
    Git was born from within the environment of the Linux kernel.  In around
    2005, Linus Torvalds, the creator of Linux, set out to create a new system
    that maintained the distributed deal, but also incorporated several
@@ -134,19 +155,30 @@ detail.
    July.
 
 ** Industry-Standard Tooling
+   #+cindex: industry-standard
    Git has grown to become an industry-standard tool.
    - It is used across all levels of industry;
+     #+cindex: Linux kernel
    - Huge projects, such as the Linux kernel, are managed in it, and also
      mandate its use;
+     #+cindex: continuous integration
+     #+cindex: continuous delivery
    - It is a key component of many continuous integration/continuous delivery pipelines;
    - Demand for knowledge about it is every increasing;
    - Commercial and open-source projects and applications recognize that if
      they require soure management services, they have to integrate witih Git;
 
 
+   #+cindex: ecosystem
+   #+cindex: git ecosystem
    An entire ecosystem has sprung up around Git.  The basic tool that is Git
    has given rise to a seemingly endless number of applications to further help
    users who want to work with it.
+     #+cindex: GitHub
+     #+cindex: Gitolite
+     #+cindex: Easy Git
+     #+cindex: Git Extensions
+     #+cindex: EGit
    - GitHub
    - Gitolite
    - Easy Git
@@ -155,39 +187,56 @@ detail.
 
 
 ** The Git Ecosystem
+   #+cindex: ecosystem
+   #+cindex: git ecosystem
    You can break down the Git-based offerings into a few categories:
+     #+cindex: core git
    - core Git
+     #+cindex: hosting sites
    - Git-hosting sites
+     #+cindex: self-hosting packages
    - self-hosting packages
    - ease-of-use packages
+     #+cindex: plug-ins
    - plug-ins
    - tools that incorporate Git
+     #+cindex: libraries
    - Git libraries
 
 
 *** Core Git
+      #+cindex: core git
     - Core Git [[https://git-scm.com/downloads]]
       + basic Git executables
       + configuration files
       + repository management tooling
     - Supporting tools
+        #+cindex: gui
       + simple GUI (guit gui)
       + history visualization tool (gitk)
+        #+cindex: Windows
+        #+cindex: Bash shell
       + alternate interface (Bash shell on Windows)
       + ported version of Mac OS X
+        #+cindex: package managers, Linux
       + Linux package management installs
 
 *** Git-Hosting Sites
+    #+cindex: hosting sites
+    #+cindex: hosting services
     Git-hosting sites are websites that provide hosting services for Git
     repositories, both for personal and shared projects.  Customers may be
     individuals, open-source collaborators, or businesses.  Many open-source
     projects have their Git repositories hosted on these sites.
 
+    #+cindex: web interfaces
     In addition to the basic hosting services, these sites offer added value in
     the form of custom browsing features, easy web interfaces to Git commands,
     integrated bug-tracking, and the ability to easily set up and share access
     among teams or groups of individuals.
 
+    #+cindex: fork and pull model
+    #+cindex: model, fork and pull
     These sites typically provide a workflow intended to allow users to
     contribute back to projects on the site.  At a high level, this usually
     involves getting a copy of another user's repository, making changes in the
@@ -198,10 +247,15 @@ detail.
     number of users, number of repositories, or features needed.
 
     Examples of these sites include
-    - Github
+      #+cindex: GitHub
+      #+cindex: Bitbucket
+    - GitHub
     - Bitbucket
 
 *** Self-Hosting Packages
+    #+cindex: self-hosting packages
+    #+cindex: GitLab
+    #+cindex: GitHub Enterprise
     Based on the success of the model and usage of hosting sites, several
     packages have been developed to provide a similar functionality and
     experience for users and groups without having to rely on an external
@@ -214,6 +268,7 @@ detail.
     collaborative features and control that are provided with the model.
 
 *** Ease-of-Use Packages
+    #+cindex: gui interfaces
     The ease-of-use category encompasses applications that sit on top of the
     basic Git tooling with the intention of simplifying user interaction with
     Git.  Typically this means they provide GUI interfaces for working with
@@ -222,6 +277,10 @@ detail.
     labor-intensive operations, such as merging.
 
     Examples include:
+      #+cindex: SourceTree
+      #+cindex: SmartGit
+      #+cindex: TortoiseGit
+      #+cindex: Git Extensions
     - SourceTree
     - SmartGit
     - TortoiseGit
@@ -232,15 +291,21 @@ detail.
     more comprehensive list at [[https://git-scm.com/downloads/guis]].
 
 *** Plug-Ins
+    #+cindex: plug-ins
     Plug-ins are software components that add interfaces for working with Git
     to existing applications.  Common plug-ins that users may deal with are
     those for popular IDEs such as:
+      #+cindex: Eclipse
+      #+cindex: IntelliJ
+      #+cindex: Visual Studio
     - Eclipse
     - IntelliJ
     - Visual Studio
 
 
     @@texinfo:@noindent@@ or those that integrate with workflow tools such as:
+      #+cindex: Jenkins
+      #+cindex: TeamCity
     - Jenkins
     - TeamCity
 
@@ -249,6 +314,8 @@ detail.
     default, or to just build it in directly.
 
 *** Tools That Incorporate Git
+    #+cindex: tools
+    #+cindex: Gerrit
     Tooling has emerged that directly incorporates and uses Git as part of its
     modfel.  One example is Gerrit, a tool designed primarily to do code
     reviews on changes targeted for Git remote repositories.  At its core,
@@ -258,6 +325,9 @@ detail.
     validations and checks on the code.
 
 *** Git Libraries
+    #+cindex: libraries
+    #+cindex: JGit
+    #+cindex: Java library, Gerrit
     For interfacing with some programming languages, developers have
     implemented libraries that wrap those languages or re-implement the Git
     functionality.  One of the best-known examples of this is JGit.  JGit is a
@@ -270,12 +340,15 @@ detail.
    consistently emerge.
 
 *** The Advantages
+    #+cindex: advantages
     There are some things Git does better (faster, easier) than other source
     management systems, and some things it takes a totally different approach
     on.  Learning about and leveraging the aspects outlined here will allow
     you to get the most out of this tool.
 
 **** Disconnected Development
+     #+cindex: disconnected development
+     #+cindex: remote
      The Git model provides a local environment where you can work with a local
      copy of a server-side environment (known as the /remote/ in Git
      terminology).  This copy resides within your workspace.  When you are
@@ -287,6 +360,8 @@ detail.
      means.
 
 **** Fast Performance
+     #+cindex: fast
+     #+cindex: efficient
      Git stores a lot of information.  However, it is efficient both in the way
      it stores content and in the way it retrieves it.  Internally, Git packs
      together similar objects.  Externally, it uses a good compression model to
@@ -296,11 +371,13 @@ detail.
      be executed on your disk.  Because it only has to interact with a local
      repository, the performance is equivalent to operating system commands.
 
+     #+cindex: granularity
      It is designed to manage multiple smaller repositories---rather than
      larger aggregate ones that may be present in traditional source control
      systems.  Thsi granularity contributes to the smaller amount of content
      that has to be moved around in Git, and thus to a faster operation.
 
+     #+cindex: branching
      Branching is extremely fast in Git, essentially as fast as you can create
      a file on your OS.  This means there is no more waiting for extended
      periods while the source management system branches your content.
@@ -308,6 +385,7 @@ detail.
      assuming there are no conflict.
 
 **** Ease of Use
+     #+cindex: easy to use
      There's a paradigm shift that is required when learning to use Git.  And a
      prerequisite to thinking that Git is easy to use is understanding it.
      However, once you grasp the concepts and start to use this tool regularly,
@@ -326,6 +404,8 @@ detail.
      with Git.
 
 **** SHA1s
+     #+cindex: SHA1
+     #+cindex: Secure Hashing Algorithm
      This is an acronym for Secure Hashing Algorithm 1.  It is a checksum.  Git
      computes SHA1's internally as keys for everything it stores in its
      repositories.  This means that every change in Git has a unique identifier
@@ -333,6 +413,7 @@ detail.
      knowing about it---because the checksum would change.
 
 **** Abiltity to Rewrite History
+     #+cindex: history, rewrite
      One aspect of Git that is different from most other source management
      systems is the ability to rewrite or /redo/ previous versions of content
      stored in the repository---that is, its /history/.  Git provides
@@ -353,12 +434,15 @@ detail.
      history months ago from all affected versions.
 
 **** Staging Area
+     #+cindex: staging area
      Git includes an intermediate level between the directly where content is
      created and edited, and the repository where content is committed.  It
      provides a separate area for use in some of Git's advanced operations,
      such as the amend option.  It also simplifies some status tracking.
 
 **** Strong Support for Branching
+     #+cindex: branching
+     #+cindex: rebase
      Using branches is a core concept of Git.  Git provides capabilities for
      changing branch points and reproducing changes from one branch onto
      another branch---a feature known as /rebasing/.  This ease in working with
@@ -388,6 +472,7 @@ detail.
 **** Mind Shift and Learning Curve
 
 **** Limited Support for Binary Files
+     #+cindex: binary files
      Git does not have strong support for binary files.  There are two aspects
      of dealing with binary files that are challenging here:
      1. internal format
@@ -427,6 +512,7 @@ detail.
      communicate about as traditional version numbers.
 
 **** Merging Scope
+     #+cindex: merge conflicts
      Any two changes by different users within the scope of a /commit/ can be a
      conflict, even if they are in entirely different files or directories.  As
      a result, the more people that are making changes within the scope of a
@@ -435,6 +521,7 @@ detail.
      planning how to structure your Git repositories.
 
 **** Ability to Rewrite History
+     #+cindex: history, rewrite
      On the challenging side of the scale is the potential impact that
      uncoordinated use can have on other users.  As a highly recommended
      guideline changes that alter history should onlhy be made in a user's
@@ -442,6 +529,7 @@ detail.
      remote side.
 
 **** Timestamps
+     #+cindex: timestamps
      Due to the way that remote repositories are sync'ed from local
      repositories, the timestamp that shows up in the remote repository is the
      time the update was made on the /local/ environment, not the timestamp of
@@ -450,6 +538,8 @@ detail.
      source control systems.
 
 **** Access and Permissions
+     #+cindex: access
+     #+cindex: permissions
      Out of the box, Git does not provide a layer to set up users or to grant
      or deny access.  For the local environment, this doesn't matter.  For
      shared server-side repositories, there are a few options:

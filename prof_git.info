@@ -385,7 +385,7 @@ model.
 access, number of users, number of repositories, or features needed.
 
    Examples of these sites include
-   • Github
+   • GitHub
    • Bitbucket
 
 
@@ -887,6 +887,133 @@ File: prof_git.info,  Node: Index,  Prev: Extending Git Functionality With Git H
 
 Index
 *****
+
+ [index ]
+* Menu:
+
+* access:                                Access and Permissions.
+                                                               (line  6)
+* advantages:                            The Advantages.       (line  6)
+* Bash shell:                            Core Git.             (line 12)
+* binary files:                          Limited Support for Binary Files.
+                                                               (line  6)
+* Bitbucket:                             Git-Hosting Sites.    (line 26)
+* book repositories:                     Reader Value.         (line 21)
+* branching:                             Fast Performance.     (line 21)
+* branching <1>:                         Strong Support for Branching.
+                                                               (line  6)
+* Connected Labs:                        Reader Value.         (line 11)
+* Connected Labs feature:                How This Book is Unique.
+                                                               (line 17)
+* continuous delivery:                   Industry-Standard Tooling.
+                                                               (line  9)
+* continuous integration:                Industry-Standard Tooling.
+                                                               (line  9)
+* core git:                              The Git Ecosystem.    (line  6)
+* core git <1>:                          Core Git.             (line  6)
+* disconnected development:              Disconnected Development.
+                                                               (line  6)
+* Easy Git:                              Industry-Standard Tooling.
+                                                               (line 19)
+* easy to use:                           Ease of Use.          (line  6)
+* Eclipse:                               Plug-Ins.             (line  8)
+* ecosystem:                             Industry-Standard Tooling.
+                                                               (line 17)
+* ecosystem <1>:                         The Git Ecosystem.    (line  6)
+* efficient:                             Fast Performance.     (line  6)
+* EGit:                                  Industry-Standard Tooling.
+                                                               (line 19)
+* fast:                                  Fast Performance.     (line  6)
+* fork and pull model:                   Git-Hosting Sites.    (line 16)
+* Gerrit:                                Tools That Incorporate Git.
+                                                               (line  6)
+* git concepts:                          How This Book is Unique.
+                                                               (line  6)
+* git ecosystem:                         Industry-Standard Tooling.
+                                                               (line 17)
+* git ecosystem <1>:                     The Git Ecosystem.    (line  6)
+* Git Extensions:                        Industry-Standard Tooling.
+                                                               (line 19)
+* Git Extensions <1>:                    Ease-of-Use Packages. (line 13)
+* git features:                          Structure and Content.
+                                                               (line 23)
+* git foundations:                       Structure and Content.
+                                                               (line 13)
+* git history:                           History of Git.       (line  6)
+* git in one paragraph:                  What Is Git.          (line 23)
+* git introduction:                      What Is Git.          (line 15)
+* git model:                             How This Book is Unique.
+                                                               (line 34)
+* Git repositories:                      Reader Value.         (line 21)
+* git usage:                             Structure and Content.
+                                                               (line 23)
+* git workflow:                          How This Book is Unique.
+                                                               (line 34)
+* git, what it is:                       What Is Git.          (line 15)
+* GitHub:                                Industry-Standard Tooling.
+                                                               (line 19)
+* GitHub <1>:                            Git-Hosting Sites.    (line 26)
+* GitHub Enterprise:                     Self-Hosting Packages.
+                                                               (line  6)
+* GitLab:                                Self-Hosting Packages.
+                                                               (line  6)
+* Gitolite:                              Industry-Standard Tooling.
+                                                               (line 19)
+* granularity:                           Fast Performance.     (line 16)
+* gui:                                   Core Git.             (line 10)
+* gui interfaces:                        Ease-of-Use Packages. (line  6)
+* history of git:                        History of Git.       (line  6)
+* history, rewrite:                      Abiltity to Rewrite History.
+                                                               (line  6)
+* history, rewrite <1>:                  Ability to Rewrite History.
+                                                               (line  6)
+* hooks, code:                           Reader Value.         (line 21)
+* hosting services:                      Git-Hosting Sites.    (line  6)
+* hosting sites:                         The Git Ecosystem.    (line  7)
+* hosting sites <1>:                     Git-Hosting Sites.    (line  6)
+* industry-standard:                     Industry-Standard Tooling.
+                                                               (line  6)
+* IntelliJ:                              Plug-Ins.             (line  8)
+* introduction to git:                   What Is Git.          (line 15)
+* Java library, Gerrit:                  Git Libraries.        (line  6)
+* Jenkins:                               Plug-Ins.             (line 13)
+* JGit:                                  Git Libraries.        (line  6)
+* libraries:                             The Git Ecosystem.    (line 12)
+* libraries <1>:                         Git Libraries.        (line  6)
+* Linux and git:                         History of Git.       (line  6)
+* Linux kernel:                          History of Git.       (line  6)
+* Linux kernel <1>:                      Industry-Standard Tooling.
+                                                               (line  7)
+* merge conflicts:                       Merging Scope.        (line  6)
+* model, fork and pull:                  Git-Hosting Sites.    (line 16)
+* organization:                          Structure and Content.
+                                                               (line  6)
+* package managers, Linux:               Core Git.             (line 14)
+* permissions:                           Access and Permissions.
+                                                               (line  6)
+* plug-ins:                              The Git Ecosystem.    (line 10)
+* plug-ins <1>:                          Plug-Ins.             (line  6)
+* rebase:                                Strong Support for Branching.
+                                                               (line  6)
+* remote:                                Disconnected Development.
+                                                               (line  6)
+* Secure Hashing Algorithm:              SHA1s.                (line  6)
+* self-hosting packages:                 The Git Ecosystem.    (line  8)
+* self-hosting packages <1>:             Self-Hosting Packages.
+                                                               (line  6)
+* SHA1:                                  SHA1s.                (line  6)
+* SmartGit:                              Ease-of-Use Packages. (line 13)
+* SourceTree:                            Ease-of-Use Packages. (line 13)
+* staging area:                          Staging Area.         (line  6)
+* TeamCity:                              Plug-Ins.             (line 13)
+* timestamps:                            Timestamps.           (line  6)
+* tools:                                 Tools That Incorporate Git.
+                                                               (line  6)
+* TortoiseGit:                           Ease-of-Use Packages. (line 13)
+* Torvalds, Linus:                       History of Git.       (line  6)
+* Visual Studio:                         Plug-Ins.             (line  8)
+* web interfaces:                        Git-Hosting Sites.    (line 11)
+* Windows:                               Core Git.             (line 12)
 
 
 
